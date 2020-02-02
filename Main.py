@@ -1,7 +1,9 @@
 from Mandelbrot import Mandelbrot
 
 def main ():
-    mySet = Mandelbrot(50, 50, 255)
+    resolution = 50
+    maxIterations = 255
+    mySet = Mandelbrot(resolution, resolution, maxIterations)
     mySet.showSet()
 
 main()
