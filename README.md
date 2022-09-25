@@ -1,7 +1,9 @@
 # Mandelbrot-Set
 
-This is a Python program designed to visualize the Mandelbrot Set.
+Python script used to visualize the Mandelbrot Set.
 
-Edit the main file to specify the desired resolution.
+Run `python3 Main.py resolution maxIterations` to generate a plot of the Mandelbrot Set, where `resolution` is the side length of the plot in pixels, and `maxIterations` specifies the maximum number of iterations when calculating the elements of the Mandelbrot Set. 
 
-There is also a sample picture included. 
+### Sample output
+
+![](figure.png)
